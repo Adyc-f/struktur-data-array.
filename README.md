@@ -1,5 +1,6 @@
 # struktur-data-array.
 
+# Sistem Pengelolaan Nilai Mahasiswa (Array)
 ## Penjelasan Konsep Array
 
 Array adalah struktur data yang digunakan untuk menyimpan beberapa data dalam satu variabel dengan tipe yang sama. Dalam Python, array dapat direpresentasikan menggunakan list.
@@ -8,11 +9,13 @@ Pada program ini, saya menggunakan array (list) untuk menyimpan 10 nilai mahasis
 
 Penggunaan array memudahkan dalam pengolahan data secara berulang menggunakan perulangan (loop).
 
+
 ## Screenshot Hasil Program
 
 Berikut adalah hasil eksekusi program:
 
-<img width="949" height="373" alt="Screenshot 2026-04-22 195228" src="https://github.com/user-attachments/assets/01afe54a-baad-4be3-825b-cc9b3d86bb1f" />
+<img width="949" height="373" alt="Screenshot 2026-04-22 195228" src="https://github.com/user-attachments/assets/01afe54a-baad-4be3-825b-cc9b3d86bb1f" 
+   
 
 ## Analisis Kompleksitas
 
@@ -44,6 +47,7 @@ Berikut analisis kompleksitas dari program:
 
 Kesimpulan:
 Sebagian besar operasi dalam program ini memiliki kompleksitas O(n) karena menggunakan perulangan untuk mengakses seluruh data.
+
 
 ## Refleksi Pembelajaran
 
