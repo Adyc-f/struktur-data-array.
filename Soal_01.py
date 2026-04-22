@@ -42,4 +42,26 @@ for n in nilai:
 
 print("Jumlah mahasiswa lulus:", lulus)
 
+import matplotlib.pyplot as plt
 
+# grafik nilai tertinggi & terendah
+kategori = ['Tertinggi', 'Terendah']
+nilai_grafik = [maks, minim]
+
+plt.figure()
+plt.bar(kategori, nilai_grafik)
+plt.title("Perbandingan Nilai Tertinggi dan Terendah")
+plt.ylabel("Nilai")
+plt.show()
+
+# grafik kelulusan
+tidak_lulus = len(nilai) - lulus
+
+kategori2 = ['Lulus', 'Tidak Lulus']
+jumlah = [lulus, tidak_lulus]
+
+plt.figure()
+plt.bar(kategori2, jumlah)
+plt.title("Data Kelulusan Mahasiswa")
+plt.ylabel("Jumlah Mahasiswa")
+plt.show()
