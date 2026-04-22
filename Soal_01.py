@@ -24,3 +24,12 @@ for n in nilai:
 
 print("\nNilai tertinggi:", maks)
 print("Nilai terendah:", minim)
+
+# menghitung rata-rata
+total = 0
+for n in nilai:
+    total += n
+
+rata_rata = total / len(nilai)
+
+print("Rata-rata nilai:", rata_rata)
