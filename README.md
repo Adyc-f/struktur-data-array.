@@ -14,7 +14,7 @@ Penggunaan array memudahkan dalam pengolahan data secara berulang menggunakan pe
 
 Berikut adalah hasil eksekusi program:
 
-<img width="949" height="373" alt="Screenshot 2026-04-22 195228" src="https://github.com/user-attachments/assets/01afe54a-baad-4be3-825b-cc9b3d86bb1f" 
+<img width="949" height="373" alt="Screenshot 2026-04-22 195228" src="https://github.com/user-attachments/assets/01afe54a-baad-4be3-825b-cc9b3d86bb1f">
    
 
 ## Analisis Kompleksitas
