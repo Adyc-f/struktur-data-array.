@@ -33,3 +33,13 @@ for n in nilai:
 rata_rata = total / len(nilai)
 
 print("Rata-rata nilai:", rata_rata)
+
+# menghitung jumlah lulus
+lulus = 0
+for n in nilai:
+    if n >= 60:
+        lulus += 1
+
+print("Jumlah mahasiswa lulus:", lulus)
+
+
